@@ -1,2 +1,0 @@
-module Prog2ProjectB {
-}
