@@ -57,8 +57,8 @@ public class Company {
 		Date d2 = new Date(10, 10, 2012);
 		List<Employee> list = new ArrayList<Employee>();
 		list.add(new Employee(101, "Abel", d, "Manager"));
-		list.add(new Employee(102, "Brandon", d1, "Developer"));
-		list.add(new Employee(103, "Catherine", d2, "Tester"));
+		list.add(new Employee(102, "Brandon", d1, "Salesman"));
+		list.add(new Employee(103, "Catherine", d2, "Accountant"));
 		writeToFile(list);
 
 		List<Employee> list2 = readFromFile();
